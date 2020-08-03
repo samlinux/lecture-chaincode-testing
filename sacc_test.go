@@ -31,7 +31,7 @@ var _ = Describe("Sacc", func() {
 	Describe("Checking Saac chaincode operations", func() {
 		Context("Checking the value of an Asset", func() {
 			// create the first test case
-			It("It should check Asset A with the inital value of 100", func() {
+			It("It should check Asset A with the intial value of 100", func() {
 				// query the new value of asset A
 				result, _ := stub.GetState("A")
 
